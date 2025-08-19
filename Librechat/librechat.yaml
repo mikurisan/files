@@ -14,6 +14,7 @@ endpoints:
     - name: "Railway"
       apiKey: "sk-linuxdo"
       baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
+      iconURL: ""
       models:
         default: [
           "GPT-5-mini",
