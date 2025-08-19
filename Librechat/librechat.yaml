@@ -14,7 +14,7 @@ endpoints:
     - name: "CC"
       apiKey: "sk-linuxdo"
       baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
-      iconURL: "https://raw.githubusercontent.com/mikurisan/files/refs/heads/main/Librechat/nousresearch.svg"
+      iconURL: "https://bucket-production-884d.up.railway.app/img/nousresearch.svg"
       models:
         default: [
           "Claude-Sonnet-4",
