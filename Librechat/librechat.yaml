@@ -14,7 +14,7 @@ endpoints:
     - name: "CC"
       apiKey: "sk-linuxdo"
       baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
-      iconURL: "https://i.imgur.com/WVohG1m.png"
+      iconURL: "https://tc-new.z.wiki/autoupload/f/GgojATxzGhxpOirUdunxRN8XgD6Lo0VDRZvy_zUHgxCyl5f0KlZfm6UsKj-HyTuv/20250819/rhze/nousresearch.svg"
       models:
         default: [
           "Claude-Sonnet-4",
