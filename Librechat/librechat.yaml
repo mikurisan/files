@@ -36,4 +36,3 @@ endpoints:
       summarize: false
       summaryModel: "GPT-5-mini"
       forcePrompt: false
-      modelDisplayLabel: "Railway"
