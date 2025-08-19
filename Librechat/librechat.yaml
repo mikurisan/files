@@ -1,0 +1,16 @@
+version: 1.2.8
+cache: true
+endpoints:
+  custom:
+    - name: "Railway"
+      apiKey: "user_provided"
+      baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
+      models:
+        default: ["GPT-5-mini"]
+        fetch: true
+      titleConvo: true
+      titleModel: "GPT-5-mini"
+      summarize: false
+      summaryModel: "GPT-5-mini"
+      forcePrompt: false
+      modelDisplayLabel: "Railway"
