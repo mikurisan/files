@@ -11,14 +11,12 @@ registration:
 
 endpoints:
   custom:
-    - name: "Railway"
+    - name: "Poe"
       apiKey: "sk-linuxdo"
       baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
-      iconURL: ""
+      iconURL: "https://raw.githubusercontent.com/mikurisan/files/refs/heads/main/Librechat/poe-color.svg"
       models:
         default: [
-          "GPT-5-mini",
-          "PPLX-Sonar-Rsn-Pro",
           "Claude-Sonnet-4",
           "Claude-Sonnet-4-Reasoning",
           "Claude-Sonnet-4-Search",
@@ -29,9 +27,11 @@ endpoints:
           "GLM-4.5",
           "Grok-4",
           "o3",
-          "o4-mini"
+          "o4-mini",
+          "GPT-5-mini",
+          "PPLX-Sonar-Rsn-Pro"
           ]
-        fetch: true
+        fetch: false
       titleConvo: true
       titleModel: "GPT-5-mini"
       summarize: false
