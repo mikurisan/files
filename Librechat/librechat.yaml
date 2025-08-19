@@ -15,7 +15,21 @@ endpoints:
       apiKey: "sk-linuxdo"
       baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
       models:
-        default: ["GPT-5-mini"]
+        default: [
+          "GPT-5-mini",
+          "PPLX-Sonar-Rsn-Pro",
+          "Claude-Sonnet-4",
+          "Claude-Sonnet-4-Reasoning",
+          "Claude-Sonnet-4-Search",
+          "DeepSeek-R1",
+          "DeepSeek-V3",
+          "Gemini-2.5-Pro",
+          "Gemini-2.5-Flash",
+          "GLM-4.5",
+          "Grok-4",
+          "o3",
+          "o4-mini"
+          ]
         fetch: true
       titleConvo: true
       titleModel: "GPT-5-mini"
