@@ -12,7 +12,7 @@ registration:
 endpoints:
   custom:
     - name: "Railway"
-      apiKey: "user_provided"
+      apiKey: "sk-linuxdo"
       baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
       models:
         default: ["GPT-5-mini"]
