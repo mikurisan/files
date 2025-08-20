@@ -36,6 +36,7 @@ endpoints:
           "Grok-4",
           "o3",
           "o4-mini",
+          "GPT-5",
           "GPT-5-mini",
           "PPLX-Sonar-Rsn-Pro"
           ]
