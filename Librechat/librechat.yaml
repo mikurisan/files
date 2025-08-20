@@ -9,6 +9,14 @@ registration:
     - "google"
     - "openid"
 
+interface:
+  sidePanel: false
+  agents: false
+  runCode: false
+  webSearch: false
+  fileSearch: false
+  presets: false
+
 endpoints:
   custom:
     - name: "CC"
