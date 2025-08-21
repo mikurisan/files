@@ -16,6 +16,7 @@ interface:
   webSearch: false
   fileSearch: false
   presets: false
+  multiConvo: false
 
 endpoints:
   custom:
