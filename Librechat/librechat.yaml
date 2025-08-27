@@ -115,7 +115,7 @@ endpoints:
     - name: "Grok"
       apiKey: "sk-linuxdo"
       baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
-      iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/wma8/1024X1024/grok.png"
+      iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/GPhQ/1024X1024/grok.png"
       models:
         default: [
           "Grok-4"
