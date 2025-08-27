@@ -11,7 +11,7 @@ registration:
 
 interface:
   # sidePanel: false
-  # agents: false
+  agents: true
   runCode: false
   webSearch: false
   fileSearch: false
