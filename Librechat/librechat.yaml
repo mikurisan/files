@@ -135,7 +135,7 @@ endpoints:
       iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/WLiu/1024X1024/perplexity-color.png"
       models:
         default: [
-          "PPLX-Sonar-Rsn-Pro"
+          "Perplexity-Sonar-Rsn-Pro"
           ]
         fetch: false
       titleConvo: true
