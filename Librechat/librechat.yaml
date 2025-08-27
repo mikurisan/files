@@ -20,25 +20,121 @@ interface:
 
 endpoints:
   custom:
-    - name: "CC"
+    - name: "OpenAI"
       apiKey: "sk-linuxdo"
       baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
-      iconURL: "https://tc-new.z.wiki/autoupload/f/GgojATxzGhxpOirUdunxRN8XgD6Lo0VDRZvy_zUHgxCyl5f0KlZfm6UsKj-HyTuv/20250819/rhze/nousresearch.svg"
+      iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/sAxP/1024X1024/openai.png"
+      models:
+        default: [
+          "GPT-5-mini",
+          "GPT-5",
+          "o3",
+          "o4-mini"
+          ]
+        fetch: false
+      titleConvo: true
+      titleModel: "GPT-5-mini"
+      summarize: false
+      summaryModel: "GPT-5-mini"
+      forcePrompt: false
+      addParams:
+        max_tokens: 9999
+
+    - name: "Claude"
+      apiKey: "sk-linuxdo"
+      baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
+      iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/tnyt/1024X1024/claude-color.png"
       models:
         default: [
           "Claude-Sonnet-4",
           "Claude-Sonnet-4-Reasoning",
-          "Claude-Sonnet-4-Search",
-          "DeepSeek-R1",
-          "DeepSeek-V3",
-          "Gemini-2.5-Pro",
+          "Claude-Sonnet-4-Search"
+          ]
+        fetch: false
+      titleConvo: true
+      titleModel: "GPT-5-mini"
+      summarize: false
+      summaryModel: "GPT-5-mini"
+      forcePrompt: false
+      addParams:
+        max_tokens: 9999
+
+    - name: "Gemini"
+      apiKey: "sk-linuxdo"
+      baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
+      iconURL: "https://tc.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/bPcy/1024X1024/gemini-color.png"
+      models:
+        default: [
           "Gemini-2.5-Flash",
-          "GLM-4.5",
-          "Grok-4",
-          "o3",
-          "o4-mini",
-          "GPT-5",
-          "GPT-5-mini",
+          "Gemini-2.5-Pro"
+          ]
+        fetch: false
+      titleConvo: true
+      titleModel: "GPT-5-mini"
+      summarize: false
+      summaryModel: "GPT-5-mini"
+      forcePrompt: false
+      addParams:
+        max_tokens: 9999
+
+    - name: "DeepSeek"
+      apiKey: "sk-linuxdo"
+      baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
+      iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/BKQc/1024X1024/deepseek-color.png"
+      models:
+        default: [
+          "DeepSeek-V3",
+          "DeepSeek-R1"
+          ]
+        fetch: false
+      titleConvo: true
+      titleModel: "GPT-5-mini"
+      summarize: false
+      summaryModel: "GPT-5-mini"
+      forcePrompt: false
+      addParams:
+        max_tokens: 9999
+
+    - name: "ChatGLM"
+      apiKey: "sk-linuxdo"
+      baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
+      iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/RguS/1024X1024/chatglm-color.png"
+      models:
+        default: [
+          "GLM-4.5"
+          ]
+        fetch: false
+      titleConvo: true
+      titleModel: "GPT-5-mini"
+      summarize: false
+      summaryModel: "GPT-5-mini"
+      forcePrompt: false
+      addParams:
+        max_tokens: 9999
+
+    - name: "Grok"
+      apiKey: "sk-linuxdo"
+      baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
+      iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/wma8/1024X1024/grok.png"
+      models:
+        default: [
+          "Grok-4"
+          ]
+        fetch: false
+      titleConvo: true
+      titleModel: "GPT-5-mini"
+      summarize: false
+      summaryModel: "GPT-5-mini"
+      forcePrompt: false
+      addParams:
+        max_tokens: 9999
+
+    - name: "Perplexity"
+      apiKey: "sk-linuxdo"
+      baseURL: "https://openai-integration-production-b1a5.up.railway.app/v1"
+      iconURL: "https://tc-new.z.wiki/autoupload/f/4FTFTyajbSlxMUZZYYRDVKWzVIO3wbC0WY1LIrXp7cWyl5f0KlZfm6UsKj-HyTuv/20250827/WLiu/1024X1024/perplexity-color.png"
+      models:
+        default: [
           "PPLX-Sonar-Rsn-Pro"
           ]
         fetch: false
