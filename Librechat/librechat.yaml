@@ -15,7 +15,7 @@ interface:
   runCode: false
   webSearch: false
   fileSearch: false
-  presets: false
+  # presets: false
   multiConvo: false
 
 endpoints:
