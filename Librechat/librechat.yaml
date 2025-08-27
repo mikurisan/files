@@ -174,37 +174,3 @@ endpoints:
 #         model: "GPT-5-mini"
 #         maxContextTokens: 99999
 #         max_tokens: 99999
-
-modelSpecs:
-  enforce: true
-  prioritize: true
-  list:
-    - name: "meeting-notes-gpt4"
-      label: "Meeting Notes Assistant (GPT4)"
-      default: true
-      description: "Generate meeting notes by simply pasting in the transcript from a Teams recording."
-      iconURL: "https://example.com/icon.png"
-      preset:
-        endpoint: "azureOpenAI"
-        model: "gpt-4-turbo-1106-preview"
-        maxContextTokens: 128000 # Maximum context tokens
-        max_tokens: 4096 # Maximum output tokens
-        temperature: 0.2
-        modelLabel: "Meeting Summarizer"
-        greeting: |
-          This assistant creates meeting notes based on transcripts of Teams recordings.
-          To start, simply paste the transcript into the chat box.
-        promptPrefix: |
-          Based on the transcript, create coherent meeting minutes for a business meeting. Include the following sections:
-          - Date and Attendees
-          - Agenda
-          - Minutes
-          - Action Items
- 
-          Focus on what items were discussed and/or resolved. List any open action items.
-          The format should be a bulleted list of high level topics in chronological order, and then one or more concise sentences explaining the details.
-          Each high level topic should have at least two sub topics listed, but add as many as necessary to support the high level topic. 
- 
-          - Do not start items with the same opening words.
- 
-          Take a deep breath and be sure to think step by step.
