@@ -162,3 +162,15 @@ endpoints:
       forcePrompt: false
       addParams:
         max_tokens: 9999
+
+modelSpecs:
+  enforce: true
+  prioritize: true
+  list:
+    - name: "GPT-5-mini-test"
+      default: true
+      preset:
+        endpoints: "OpenAI"
+        model: "GPT-5-mini"
+        maxContextTokens: 99999
+        max_tokens: 99999
