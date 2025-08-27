@@ -10,8 +10,8 @@ registration:
     - "openid"
 
 interface:
-  sidePanel: false
-  agents: false
+  # sidePanel: false
+  # agents: false
   runCode: false
   webSearch: false
   fileSearch: false
