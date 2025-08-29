@@ -152,7 +152,8 @@ endpoints:
       iconURL: "https://tc-new.z.wiki/autoupload/f/bYPWdtDQoRkya5SkQ1rQgY12_FRYNb81z6UPhMWD8iI/20250827/kakd/1024X1024/copilot-color.png"
       models:
         default: [
-          "GPT-Researcher"
+          "GPT-Researcher",
+          "Reka-Research"
           ]
         fetch: false
       titleConvo: true
